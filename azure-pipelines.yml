@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  name: 'NewAgentPoolBigData'  # For self-hosted agent pool
+  name: 'windows-latest'  # For self-hosted agent pool
 
 variables:
   solution: '**/*.sln'
